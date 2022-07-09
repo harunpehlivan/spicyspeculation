@@ -1,0 +1,37 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-155da684.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/game.vue",
+      "pages/index.vue"
+    ],
+    "css": [
+      "entry.a6f6add9.css"
+    ],
+    "assets": [
+      "CL_Buildings.16eff6a9.png",
+      "CL_MainLev.38f125ba.png",
+      "Harbor.17cfcaaa.png",
+      "ocean.2249cc40.png",
+      "charter.01fd2c60.jpg"
+    ]
+  },
+  "pages/game.vue": {
+    "file": "game-a83f71e5.mjs",
+    "src": "pages/game.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-4c6c7354.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+}
